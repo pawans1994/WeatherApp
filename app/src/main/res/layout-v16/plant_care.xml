@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/plant_care_bg"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/theme1">
+
+    <RelativeLayout
+        android:id="@+id/mainContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Plants"
+            android:textSize="20pt"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:id="@+id/plants_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="invisible"
+            android:layout_marginTop="70dp">
+
+            <LinearLayout
+                android:id="@+id/myplant_1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:clickable="true"
+                android:visibility="invisible"
+                android:orientation="horizontal"
+                android:gravity="left|center">
+
+                <ImageView
+                    android:id="@+id/picon1"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:background="#3CF1EBF1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="3dp"
+                    android:src="@drawable/plant"/>
+
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/pname1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Petunia"
+                        android:textSize="10pt"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/pdesc1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Petunia is genus of 20 species of flowering plants of South American origin. The popular flower of the same name derived its epithet from the French, which took the word petun, meaning &quot;tobacco,&quot; from a Tupi–Guarani language."
+                        android:textSize="5pt"/>
+                </LinearLayout>
+            </LinearLayout>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"/>
+            <LinearLayout
+                android:id="@+id/myplant_2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:visibility="invisible"
+                android:gravity="left|center">
+
+                <ImageView
+                    android:id="@+id/picon2"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:background="#3CF1EBF1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="3dp"
+                    android:src="@drawable/plant"/>
+
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/pname2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Petunia"
+                        android:textSize="10pt"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/pdesc2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Petunia is genus of 20 species of flowering plants of South American origin. The popular flower of the same name derived its epithet from the French, which took the word petun, meaning &quot;tobacco,&quot; from a Tupi–Guarani language."
+                        android:textSize="5pt"/>
+                </LinearLayout>
+            </LinearLayout>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"/>
+            <LinearLayout
+                android:id="@+id/myplant_3"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:visibility="invisible"
+                android:gravity="left|center">
+
+                <ImageView
+                    android:id="@+id/picon3"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:background="#3CF1EBF1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="3dp"
+                    android:src="@drawable/plant"/>
+
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/pname3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Petunia"
+                        android:textSize="10pt"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/pdesc3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Petunia is genus of 20 species of flowering plants of South American origin. The popular flower of the same name derived its epithet from the French, which took the word petun, meaning &quot;tobacco,&quot; from a Tupi–Guarani language."
+                        android:textSize="5pt"/>
+                </LinearLayout>
+            </LinearLayout>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"/>
+            <LinearLayout
+                android:id="@+id/myplant_4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:visibility="invisible"
+                android:gravity="left|center">
+
+                <ImageView
+                    android:id="@+id/picon4"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:background="#3CF1EBF1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="3dp"
+                    android:src="@drawable/plant"/>
+
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/pname4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Petunia"
+                        android:textSize="10pt"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/pdesc4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Petunia is genus of 20 species of flowering plants of South American origin. The popular flower of the same name derived its epithet from the French, which took the word petun, meaning &quot;tobacco,&quot; from a Tupi–Guarani language."
+                        android:textSize="5pt"/>
+                </LinearLayout>
+            </LinearLayout>
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"/>
+            <LinearLayout
+                android:id="@+id/myplant_5"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:visibility="invisible"
+                android:gravity="left|center">
+
+                <ImageView
+                    android:id="@+id/picon5"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:background="#3CF1EBF1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="3dp"
+                    android:src="@drawable/plant"/>
+
+                <Space
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="left"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/pname5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Petunia"
+                        android:textSize="10pt"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/pdesc5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Petunia is genus of 20 species of flowering plants of South American origin. The popular flower of the same name derived its epithet from the French, which took the word petun, meaning &quot;tobacco,&quot; from a Tupi–Guarani language."
+                        android:textSize="5pt"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/no_plants_added"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No plants added."
+            android:visibility="visible"
+            android:textSize="7pt"
+            android:textAlignment="center"
+            android:layout_marginTop="70dp"/>
+
+        <Button
+            android:id="@+id/delete_plant"
+            android:background="#3CF1EBF1"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:padding="5dp"
+            android:text="Delete Plant"/>
+
+        <Button
+            android:id="@+id/add_plant"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="#3CF1EBF1"
+            android:padding="5dp"
+            android:visibility="gone"
+            android:text="Add Plant"/>
+    </RelativeLayout>
+</RelativeLayout>
